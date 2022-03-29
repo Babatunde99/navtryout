@@ -1,0 +1,147 @@
+* {
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+  margin: auto;
+}
+
+body .logo img {
+  width: 80px;
+  border-radius: 70%;
+}
+
+body .navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: lavender;
+}
+
+body .hamburg {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body .hamburg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 40px;
+  }
+}
+
+body .listings ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+  color: black;
+  padding-top: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  body .listings {
+    display: none;
+  }
+}
+
+body button {
+  background-color: black;
+  color: aliceblue;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  body button {
+    display: none;
+  }
+}
+
+body button:hover {
+  color: black;
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+
+body body {
+  background-color: honeydew;
+  font-family: Helvetica;
+}
+
+body #main-form {
+  background-color: lavender;
+  padding: 50px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+}
+
+body #container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #div-frt #btn-container {
+  padding-top: 20px;
+  font-family: Tahoma;
+}
+
+body #div-frt input {
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid gray;
+  width: 300px;
+  padding-left: 10px;
+}
+
+body #sgn-btn {
+  background-color: black;
+  width: 150px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body #sgn-btn:hover {
+  background-color: #fff;
+  color: gray;
+  border: 3px solid gray;
+}
+/*# sourceMappingURL=style.css.map */

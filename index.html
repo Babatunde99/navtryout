@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/meta.png" alt="logo">
+            </div>
+            <div class="listings">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Testimonial</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div>
+                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Get Started
+                </button>
+            </div>
+            <div class="hamburg">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="container">
+                        <form action="get" id="main-form">
+                            <div class="logo">
+                                <img src="images/meta.png" width="90px" height="60px" />
+                            </div>
+                            </br>
+                            <h5>
+                                Sign Up Page
+                            </h5>
+
+                            <div id="div-frt">
+                                <label>First Name</label><br />
+                                <input type="text" placeholder="Enter first name" />
+                            </div>
+                            <div id="div-frt">
+                                <label>Last Name</label> <br />
+                                <input type="text" placeholder="Enter last name" />
+                            </div>
+                            <div id="div-frt">
+                                <label>Contact Address</label><br />
+                                <input type="text" placeholder="Enter house address" />
+                            </div>
+                            <div id="div-frt">
+                                <label>E-mail Address</label><br />
+                                <input type="email" placeholder="someone@mail.com" />
+                            </div>
+                            </br>
+                            <p>
+                                Gender:
+                                <input type="radio" />
+                                <label>Male</label>
+                                <input type="radio" />
+                                <label>Female</label>
+                                <input type="radio" />
+                                <label>Other</label>
+                            </p>
+                            <div id="div-frt">
+                                <label>Password</label><br />
+                                <input type="password" placeholder="Enter password" />
+                            </div>
+                            <div id="div-frt">
+                                <label>Confirm Password</label><br />
+                                <input type="password" placeholder="Confirm/re-enter password" />
+                            </div>
+                            </br>
+                            <div class="attestation">
+                                <input type="checkbox" />
+                                <label>
+                                    I attest to all information provided above to be correct and
+                                    genuine</label>
+                                <br />
+                                <input type="checkbox" />
+                                <label>I am 18+</label>
+                            </div>
+                            <div id="btn-container">
+                                <div><button type="submit" id="sgn-btn">Sign Up</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+* {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    margin: auto;
+
+    .logo img {
+        width: 80px;
+        border-radius: 70%;
+    }
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        width: 100%;
+        background-color:lavender;
+    }
+    .hamburg{
+        display: none;
+
+        @media screen and (max-width:768px) {
+            display: flex;
+            font-size: 40px;
+        }
+    }
+
+    .listings {
+        & ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            color: black;
+            padding-top: 13px;
+        }
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+    }
+    button {
+        background-color: black;
+        color: aliceblue;
+        font-size: 14px;
+        padding: 15px;
+        border-radius: 20px;
+        width: 200px;
+
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+
+        &:hover {
+            color: black;
+            background-color: yellowgreen;
+            cursor: pointer;
+        }
+    }
+
+    body{
+        background-color: honeydew;
+        font-family: Helvetica;
+    }
+    #main-form{
+        background-color: lavender;
+        padding:50px;
+        border-radius:10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+  
+    #container{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+    #div-frt #btn-container{
+        padding-top: 20px;
+        font-family: Tahoma;
+    }
+    #div-frt input{
+        height: 40px;
+        border-radius: 5px;
+        border: 3px solid gray;
+        width: 300px;
+        padding-left: 10px;
+    }
+    #sgn-btn{
+        background-color:black;
+        width: 150px;
+        border-radius: 20px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    #sgn-btn:hover{
+        background-color: #fff;
+        color: gray;
+        border: 3px solid gray;
+    }
+}
