@@ -31,12 +31,12 @@ body .navbar {
   position: relative;
 }
 
-body .navbar .hamburg {
+body .navbar .fa-bars {
   display: none;
 }
 
 @media screen and (max-width: 992px) {
-  body .navbar .hamburg {
+  body .navbar .fa-bars {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
